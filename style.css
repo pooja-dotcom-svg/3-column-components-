@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-size: 1em;
+    background-color:  hsl(0, 0%, 95%);
+   /* overflow: hidden; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    margin: 0;
+  
+}
+h2{
+    
+
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+   
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+   color: hsla(0, 0%, 100%, 0.75);
+}
+
+.header{
+     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%); */
+    /* margin-block: 142px; */
+    margin-inline: auto;
+    min-height: 400px;
+    flex-basis: 700px;
+
+   /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    line-height: 1.5;
+    opacity: 1;
+   border-radius: 7px;
+   overflow: hidden;
+   margin:1.5rem;
+}
+
+.car-sedans{
+ padding: 40px;
+    background-color: hsl(31, 77%, 52%) ;
+    /* width: 100%; */
+    /* border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px; */
+    flex: 1;
+     flex-shrink: 0;
+     
+}
+
+.car-suv{
+     padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+    /* width: 100%; */
+     flex: 1;
+     flex-shrink: 0;
+     
+     
+}
+.car-luxury{
+     padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    /* width: 100%; */
+    /* border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px; */
+    flex: 1;
+    flex-shrink: 0;
+    
+    
+}
+
+    
+.header a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+      cursor: pointer;
+    background-color:  hsl(0, 0%, 95%);
+
+}
+#car-sedans a {
+    color: hsl(31, 77%, 52%);
+}
+#car-suv a {
+    color: hsl(184, 100%, 22%);
+}
+#car-luxury a {
+    color: hsl(179, 100%, 13%);
+}
